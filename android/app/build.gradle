@@ -1,0 +1,50 @@
+plugins {
+    id "com.android.application"
+    id 'com.google.gms.google-services' // FlutterFire Configuration
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin" // Flutter Gradle Plugin
+}
+
+android {
+    namespace = "com.votingsystem.qpoll"
+    compileSdk = 34 // Ensure it matches the installed SDK version
+    ndkVersion = "25.2.9519653" // Match your installed version
+// Fallback NDK version
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17 // Use Java 17 for compatibility
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17" // Match JVM target to Java 17
+    }
+
+    defaultConfig {
+        applicationId = "com.votingsystem.qpoll"
+        minSdkVersion 23 // Minimum SDK version updated
+        targetSdkVersion 34 // Target SDK updated to 34
+        versionCode flutter.versionCode
+        versionName flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true // Enable shrinking
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:32.0.0') // Firebase BOM
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-storage'
+    implementation "com.airbnb.android:lottie:3.4.0" // Ensure the Lottie dependency is in the correct place
+}

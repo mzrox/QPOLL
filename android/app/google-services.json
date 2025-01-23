@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "860098839834",
+    "firebase_url": "https://qpoll-bfc2e-default-rtdb.firebaseio.com",
+    "project_id": "qpoll-bfc2e",
+    "storage_bucket": "qpoll-bfc2e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860098839834:android:ccdd717bd025eeb7fa18a3",
+        "android_client_info": {
+          "package_name": "com.qpoll.qpoll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860098839834-mjamtd5mkht1huu85akj2q87r7o6690g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qpoll.qpoll",
+            "certificate_hash": "0d9a3cdb51d624c6a2d36aaf2b440d43fe817945"
+          }
+        },
+        {
+          "client_id": "860098839834-hvhgkhn718mur2lcg3jgf7r5b4bjnjsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPsizJw56bqA1HrgFx88NEAp6-ttiXGus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860098839834-hvhgkhn718mur2lcg3jgf7r5b4bjnjsg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "860098839834-hcfdkqsovvr61shuoohe3jv9nbo7dj67.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.votingsystem.qpoll"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860098839834:android:f3bc331b46c13a51fa18a3",
+        "android_client_info": {
+          "package_name": "com.votingsystem.qpoll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860098839834-hvhgkhn718mur2lcg3jgf7r5b4bjnjsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPsizJw56bqA1HrgFx88NEAp6-ttiXGus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860098839834-hvhgkhn718mur2lcg3jgf7r5b4bjnjsg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "860098839834-hcfdkqsovvr61shuoohe3jv9nbo7dj67.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.votingsystem.qpoll"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
